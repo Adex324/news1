@@ -1,0 +1,314 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+body{
+    background-color: hsl(36, 100%, 99%);
+    padding: 50px;
+    align-items: center;
+    font-family: "Inter";
+    justify-content: space-between;
+}
+h1{
+    font-family: "Inter";
+    font-weight: 700;
+}
+.title-section{
+    background-color: hsl(36, 100%, 99%);
+    
+}
+nav{
+    background-color:hsl(36, 100%, 99%) ;
+}
+.navbar{
+    padding: 15px auto;
+    background-color: hsl(36, 100%, 99%);
+    height: 70px;
+    border: 10px;
+    margin-left: 30px;
+    margin-right: 80px;
+    
+}
+.min:hover{
+ color:  hsl(5, 85%, 63%);
+    
+}
+
+.nav-item{
+    padding: 0px 1px;
+    
+}
+.nav-link{
+    margin-right: 2px;
+}
+.big-stuff{
+    margin-right: 50px;
+}
+img.big-image{
+    width: 800px;
+}
+.img-text{
+    color: black;
+    font-weight: 800;
+    font-style: Bold;
+    padding: 15px auto;
+    overflow-wrap: break-word;
+    width: 270px;
+    margin-left: -20px;
+    
+    
+}
+.rubbish{
+    color: hsl(233, 8%, 79%);
+    margin: 15px auto;
+    text-align: justify;
+    justify-content:space-between ;
+}
+
+
+.G-stuff{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    padding: 15px 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.button-small{
+    display: flex;
+    margin-top: 20px;
+    font-size:large;
+    padding: 20px 40px;
+    align-items: baseline;
+    border-radius: 2px;
+    background-color:  hsl(5, 85%, 63%);
+    color: white;
+    border-style: hidden;
+    cursor: pointer;
+    width: 200px;
+    
+}
+.button-small:hover{
+    background-color: hsl(240, 100%, 5%);
+}
+.side-stuff{
+padding: 20px 20px;
+margin-bottom: 10px;
+background-color:hsl(240, 100%, 5%) ;
+width: 400px;
+text-align: start;
+display: inline;
+margin-left: 20px;
+margin-right: 0;
+
+
+}
+.side-text{
+    font-family: "inter";
+    justify-content: space-between;
+    padding: 2px auto;
+    color: hsl(35, 77%, 62%);
+   margin-bottom: 40px;
+   
+}
+.txt-sid{
+    color: white;
+    font-family: "Inter";
+    font-weight: 400;
+    cursor: pointer;
+}
+.txt-sid:hover{
+    color: hsl(35, 77%, 62%);
+}
+.sid-p{
+    color: hsl(233, 8%, 79%);
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1em;
+}
+hr{
+    display: block;
+    height: 0px;
+    border: 0px;
+    border-top: 3px solid hsl(0, 0%, 100%);
+    margin: 1em 0;
+    padding: 0.02px;
+
+}
+.hoz{
+    background-color: aliceblue;
+    border: 0.2px;
+    border-color: aqua;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px 20px;
+    padding: 20px;
+}
+.bottom-stuff{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    margin-top: 100px;
+    margin-right: 50px;
+    padding-right: 20px;
+
+}
+.bs1{
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    
+}
+img.Retro{
+width: 130px;
+margin-left: 50px;
+margin-top: 20px;
+
+}
+.txt-Ret{
+    color: hsl(236, 13%, 42%) ;
+    font-family: "Inter";
+    font-weight: 400;
+}
+.tear{
+    color:  hsl(240, 100%, 5%);
+    font-family: "Inter";
+    font-size: 1em;
+    font-weight: bold;
+}
+.mad{
+    color: hsl(233, 8%, 79%);
+}
+.tear:hover{
+    color: hsl(5, 85%, 63%) ;
+    cursor: pointer;
+}
+@media only screen and (max-width:1440px){
+    .side-stuff{
+        width: 80%;
+        margin-right: 50px;
+    }
+}
+@media only screen and (max-width:375px){
+
+    .nav-link{
+      display: flex;
+      object-fit: contain;
+    }
+    .navbar-collapse{
+        background-color: rgb(255, 255, 255);
+        border: 20px;
+    }
+    .title-section{
+margin-bottom: 40px;
+width: 375px;
+    }
+    body{
+       justify-content: space-between;
+       align-items: center;
+    }
+    .big-title{
+        margin-right: 200px;
+    }
+    img.big-image{
+        max-width: 650px;
+        max-height: 900px;
+        object-fit: contain;
+        padding-bottom: 20px;
+    }
+    h1.img-text{
+       
+        padding: 20px auto;
+        overflow-wrap: break-word;
+        width: 380px;
+        font-size: 3rem;
+        object-fit: fill;
+       align-items: left;
+        margin-bottom: 30px;
+      
+        
+        }
+        .big-stuff{
+            
+        }
+        .rubbish{
+            color: hsl(233, 8%, 79%);
+            margin: 30px auto;
+      text-align: center;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+            justify-content:space-between ;
+            width: 380px;
+            margin-left: -50px;
+            padding-left: 35px;
+            padding-right: 20px;
+            padding-top: 20px;
+            margin-right: 90px;
+            padding-bottom: 20px;
+            display: inline;
+            font-size: 2rem;
+        }
+        .button-small{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .side-stuff{
+            max-width: 550px;
+            margin-top: 30px;
+            margin-bottom: -20px;
+        }
+        
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .G-stuff{
+        grid-template-columns: 1fr;
+    }
+    .bottom-stuff{
+        grid-template-columns: 1fr;
+        object-fit: contain;
+        margin-right: 30px;
+    }
+    .bs1{
+        display: grid;
+        grid-template: 1fr 1fr;
+        width: 375px ;
+    }
+    img.Retro{
+        width: 230px;
+        margin-left: 60px;
+        margin-top: 40px;
+        
+        }
+        .txt-Ret{
+            display: inline-block;
+            width: 375px;
+
+        }
+        .Retro{
+            margin-bottom: 20px;
+        }
+        h3.txt-Ret{
+            margin-bottom: 50px;
+            margin-top: 50px;
+            margin-left: 30px;
+            justify-content: space-between;
+            word-spacing: 2px;
+        }
+        .tear{
+            margin-bottom: 50px;
+            margin-top: 10px;
+            margin-left: 30px;
+        }
+        .mad{
+            margin-bottom: 20px;
+            margin-top: 10px;
+            margin-left: 30px;
+           overflow-wrap: break-word;
+           width: 20px;
+        }
+        .crzy{
+            overflow-x: auto;
+        }
+
+}
